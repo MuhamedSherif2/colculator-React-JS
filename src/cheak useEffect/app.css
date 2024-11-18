@@ -1,0 +1,95 @@
+.app{
+    background-color: #393E46;
+    color: #00ADB5;
+    width: 100%;
+    height: 100vh;
+    font-family: "Libre Baskerville", serif;
+}
+.todo{
+    width: 60%;
+    margin: auto;
+}
+.todo h2{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.todo .setTask{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.todo .setTask input{
+    font-size: 20px;
+    width: 300px;
+    padding: 3px;
+    border-radius: 7px;
+    margin-right:20px ;
+}
+.todo .setTask button{
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 3px;
+    border: none;
+    color: #393E46;
+    margin-top: 10px;
+    transition: 0.4s ease;
+    width: 70px;
+}
+.todo .setTask button:hover{
+    transform: scale(1.1);
+    background-color: #00ADB5;
+}
+.todo .task{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7px;
+}
+.todo .task li{
+    width: 500px;
+    overflow-wrap: break-word;
+    list-style-type: square;
+    font-size: 22px;
+    cursor: pointer;
+}
+.todo .task .done{
+    text-decoration: line-through;   
+}
+.todo .task span{
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.todo .task span:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width:500px) {
+    .todo{
+        width: 90%;
+        margin: auto;
+    }
+    .todo h2{
+        text-align: start;
+    }
+    .todo .setTask{
+        justify-content: left;
+    }
+    .todo .setTask input{
+        width: 200px;
+        margin-right: 10px;
+    }
+    .todo .task{
+        padding: 0;
+        justify-content: left;
+    }
+    .todo .task li{
+        width: 250px;
+        font-size: 18px;
+        list-style: none; 
+        margin-right: 7px;
+    }
+}

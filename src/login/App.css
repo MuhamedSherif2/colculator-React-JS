@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav{
+    background-color: #1a3636;
+    display: flex;
+    justify-content: space-around;
+    color: #d6bd98;
+    align-items: center;
+    padding: 15px;
+}
+.nav nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+.nav nav ul li a{
+    text-decoration: none;
+    color: #d6bd98;
+}
+section{
+    background-color: #677d6a;
+    height: 100vh;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 5px;
+    padding: 25px;
+    height: 100%;
+    
+}
+
+.card-container .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    height: 100px;
+}
+.sign{
+    background-color: #40534c;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    height: 65vh;
+    color: #d6bd98;
+    border-radius: 50px;
+}
+.sign h1{
+    font-size: 50px;
+    padding: 25px;
+}
+.sign input{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+.sign button{
+    width: 20%;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    border-radius: 50px;
+    transition: 0.5s;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sign button:hover{
+    background-color: #d6bd98;
+    transform: scale(1.1);
+}

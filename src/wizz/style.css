@@ -1,0 +1,23 @@
+*{
+    text-decoration: none;
+}
+.nav{
+    background-color: aquamarine;
+    padding: 10px 0px;
+}
+.nav .div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .div ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.nav .div ul li Link{
+    color: black;
+}
+
