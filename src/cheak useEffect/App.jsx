@@ -1,10 +1,10 @@
 import React from 'react'
-import Frist from './Todo'
+import Todo from './Todo'
 
 function App() {
   return (
     <div>
-      <Frist />
+      <Todo />
     </div>
   )
 }
