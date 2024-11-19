@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './cheak useEffect/App'
+import App from './calc/App'
 
 
 
